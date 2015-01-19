@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>変更日時</th>
+        <th>変更者</th>
+    </tr>
+    <tr>
+        <td><input type="radio" name="new_version" value="9"/></td>
+        <td></td>
+        <td>2012-06-18 18:47:07</td>
+        <td>FGH</td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="new_version" value="8"/></td>
+        <td><input type="radio" name="old_version" value="8"/></td>
+        <td>2012-05-17 08:47:02</td>
+        <td>DEF</td>
+    </tr>
+    ...
+    <tr>
+        <td></td>
+        <td><input type="radio" name="old_version" value="1"/></td>
+        <td>2012-04-16 01:44:50</td>
+        <td>ABC</td>
+    </tr>
+</table>
+
+<input type="submit" value="AとBの差分を表示する"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="lib/app.js"></script>
+</body>
+</html>

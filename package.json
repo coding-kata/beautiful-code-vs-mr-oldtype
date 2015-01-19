@@ -1,0 +1,22 @@
+{
+  "name": "beautiful-code-vs-mr-oldtype",
+  "description": "Code Kata for http://labs.timedia.co.jp/2012/07/beautiful-code-vs-mr-oldtype.html",
+  "version": "1.0.0",
+  "homepage": "https://github.com/azu/beautiful-code-vs-mr-oldtype/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/beautiful-code-vs-mr-oldtype.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories" : {
+    "test" : "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/beautiful-code-vs-mr-oldtype/issues"
+  }
+}
