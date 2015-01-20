@@ -9,14 +9,23 @@
   },
   "main": "index.js",
   "scripts": {
+    "start": "http-server ./",
     "test": "mocha test/*.js"
   },
-  "directories" : {
-    "test" : "test/"
+  "directories": {
+    "test": "test/"
   },
   "author": "azu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/azu/beautiful-code-vs-mr-oldtype/issues"
+  },
+  "devDependencies": {
+    "espower-loader": "^0.10.0",
+    "http-server": "^0.7.4",
+    "intelli-espower-loader": "^0.6.0",
+    "mocha": "^2.1.0",
+    "power-assert": "^0.10.1",
+    "testium": "^2.3.0"
   }
 }
