@@ -2,14 +2,13 @@
   "name": "beautiful-code-vs-mr-oldtype",
   "description": "Code Kata for http://labs.timedia.co.jp/2012/07/beautiful-code-vs-mr-oldtype.html",
   "version": "1.0.0",
-  "homepage": "https://github.com/azu/beautiful-code-vs-mr-oldtype/",
+  "homepage": "https://github.com/coding-kata/beautiful-code-vs-mr-oldtype/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/beautiful-code-vs-mr-oldtype.git"
+    "url": "https://github.com/coding-kata/beautiful-code-vs-mr-oldtype.git"
   },
   "main": "index.js",
   "scripts": {
-    "postinstall":"testium --download-selenium",
     "start": "http-server ./",
     "test": "mocha test/*.js"
   },
@@ -19,13 +18,14 @@
   "author": "azu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/beautiful-code-vs-mr-oldtype/issues"
+    "url": "https://github.com/coding-kata/beautiful-code-vs-mr-oldtype/issues"
   },
   "devDependencies": {
     "espower-loader": "^0.10.0",
     "http-server": "^0.7.4",
     "intelli-espower-loader": "^0.6.0",
     "mocha": "^2.1.0",
+    "phantomjs": "^1.9.13",
     "power-assert": "^0.10.1",
     "testium": "^2.3.0"
   }
