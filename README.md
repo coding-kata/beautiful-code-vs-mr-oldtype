@@ -20,6 +20,10 @@
 - リファクタリングを開始する
 - `npm test` でテストを動かし確認する
 
+## 実践
+
+- [Refactoring jQuery #1](https://github.com/coding-kata/beautiful-code-vs-mr-oldtype/pull/1 "Refactoring jQuery #1")
+
 ## Contributing
 
 1. Fork it!
