@@ -9,6 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "postinstall":"testium --download-selenium",
     "start": "http-server ./",
     "test": "mocha test/*.js"
   },
