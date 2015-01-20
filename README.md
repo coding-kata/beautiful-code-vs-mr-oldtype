@@ -1,4 +1,4 @@
-# jQuery refactoring with E2E Tests
+# jQuery refactoring with E2E Tests [![Build Status](https://travis-ci.org/coding-kata/beautiful-code-vs-mr-oldtype.svg)](https://travis-ci.org/coding-kata/beautiful-code-vs-mr-oldtype)
 
 - [美しいプログラムを書く(業務用Webアプリケーション保守編) - TIM Labs](http://labs.timedia.co.jp/2012/07/beautiful-code-vs-mr-oldtype.html "美しいプログラムを書く(業務用Webアプリケーション保守編) - TIM Labs")
 
