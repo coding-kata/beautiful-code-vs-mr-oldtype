@@ -23,6 +23,7 @@
 ## 実践
 
 - [Refactoring jQuery #1](https://github.com/coding-kata/beautiful-code-vs-mr-oldtype/pull/1 "Refactoring jQuery #1")
+- [Refactoring E2E tests to apply page-object pattern by azu · Pull Request #2 · coding-kata/beautiful-code-vs-mr-oldtype](https://github.com/coding-kata/beautiful-code-vs-mr-oldtype/pull/2 "Refactoring E2E tests to apply page-object pattern by azu · Pull Request #2 · coding-kata/beautiful-code-vs-mr-oldtype")
 
 ## Contributing
 
