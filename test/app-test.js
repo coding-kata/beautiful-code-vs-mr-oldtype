@@ -10,18 +10,19 @@ describe("app", function () {
         page = new AppPage(this.browser);
     });
     // Run http://gyazo.com/b7e1593ef11326f5d6bf788d25e1bd6d.gif
-    describe("when click New(2nd)", function () {
+    describe("when click new version", function () {
         var inputNew;
+        var index = 1;
         beforeEach(function () {
-            inputNew = page.selectNewVersionAt(1);
+            inputNew = page.selectNewVersionAt(index);
         });
-        it('then Old(2nd) is checked', function () {
-            var inputOld = page.getOldVersionAt(1);
+        it('then corresponding old version is checked', function () {
+            var inputOld = page.getOldVersionAt(index);
             assert(inputNew.get("checked"));
             assert(inputOld.get("checked"));
         });
     });
-    describe("when Click Old(3rd)", function () {
+    describe("when click old version", function () {
         var inputOld;
         var defaultCheckedButton;
         beforeEach(function () {
@@ -31,7 +32,7 @@ describe("app", function () {
         beforeEach(function () {
             inputOld = page.selectOldVersionAt(1);
         });
-        it("then New side didn't changed", function () {
+        it("then all new versions didn't changed", function () {
             assert(defaultCheckedButton.get("checked"));
             assert(inputOld.get("checked"));
         });
